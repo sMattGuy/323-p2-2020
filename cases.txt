@@ -1,0 +1,84 @@
+!COMMENTS HAVE BEEN ENTERED TO SHOW FAIL CASE NUMBER!
+
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+aA$3								//FAIL CASE 1: LESS THAN 8 CHARACTERS
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+aA$3butthistimeitsreallylongimeanlongerthanyouwouldevermakeapasswordbufferoverflowcheckbasically	//FAIL CASE 2: MORE THAN 32 CHARACTERS
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+abcdABCD123$!							//FAIL CASE 3: ILLEGAL SPECIAL CHARACTERS
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+abcdABCD$							//FAIL CASE 4: MISSING NUMERIC
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+abcdabcd5&							//FAIL CASE 5: MISSING UPPER CASE
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+ABCDABCD5%							//FAIL CASE 6: MISSING LOWERCASE
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+abcdABCD5							//FAIL CASE 7: MISSING SPECIAL CHARACTER
+Your password failed one or more password rules
+Please create a password using the following:
+1) The password length: 8-32 Characters
+2) Must use at least one number
+3) Must use at least one upper case character
+4) Must use at least one lower case character
+5) Must use at least one of the specified special characters:
+   # $ * ( ) % & ^
+Please enter your password
+thePerfectPassword1999&()*
+Please retype your password
+thePerfectPassword1999&()*
+Your password will be updated shortly...
